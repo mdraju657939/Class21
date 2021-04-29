@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.fix-width{
+    width: 1170px;
+    margin: auto;
+}
+
+.full-website{
+    width: 1170px;
+    margin: auto;
+}
+
+/* ======== Header ======== */
+
+.header{
+    background: #0d1422;
+    padding: 10px 0;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px 20px;
+    color: #ddd;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px 30px;
+    margin-left: -5px;
+    font-size: 18px;
+    color: #ddd;
+}
+.header-right ul li a:hover{
+    background: #394d74;
+    transition: .5s;
+    color: #e7c125;
+}
+
+/* ======== banner-section ======== */
+
+.banner-section{
+    background-image: url(https://www.safran-electronics-defense.com/sites/sagem/files/styles/safran_block2x1/public/thumbnails/image/saf2019_0325612-1.jpg?itok=Z_CQcDG9);
+    
+    padding: 200px 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.banner-section h1{
+    color: 000;
+    text-transform: uppercase;
+    m
+}
+.banner-section p{
+    color: #000;
+}
+.banner-section a{
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 10px;
+}
+.banner-section a:hover{
+    color: rgb(128, 0, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(128, 0, 0);
+    transition: .5s;
+}
+
+/* ======= service-section ========== */
+
+.service-section{
+    padding: 40px 0;
+}
+.service-section p{
+    color: #575757;
+}
+
+
+
+.service{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid green;
+}
+
+.service-item{
+    float: left;
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service-item span{
+    color: #4885ba;
+    font-size: 25px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.service-item p{
+    color: #575757;
+    margin-top: 10px;
+}
+
+/* ========= about-section ======== */
+.about-section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.about-section p{
+    color: #575757;
+    line-height: 50px;
+}
+
+/* ======== containe-section ======== */
+.containe-section{
+    padding-bottom: 50px;
+}
+.containe-left{
+    float: left;
+    width: 40%;
+}
+.containe-left img{
+    width: 500px;
+    height: auto;
+    margin-left: 40px ;
+}
+.containe-right{
+    float: right;
+    width: 55%;
+    color: #575757;
+}
+.containe-right h3{
+    margin-top: 20px;
+}
+.containe-right p{
+    margin-top: 5px;
+}
+
+/* ======== contact-section ========= */
+
+.contact-section{
+    background: #f6f6f6;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.contact-section p{
+    color: #575757;
+}
+
+.contact-info{
+    float: left;
+    width: 33.3%;
+    background: #f6f6f6;
+    padding-bottom: 60px;
+}
+.contact-info span{
+    color:  #4885ba ;
+}
+
+/* ========= footer-section ========= */
+.footer-section{
+    background: #4684b5;
+    padding: 20px 0;
+}
+.footer-section span{
+    font-size: 15px;
+    margin: 0 10px;
+}
+.footer-bootm{
+    padding: 10px 0;
+    background: #0d1422;
+}
+.footer-bootm p{
+    color: #575757;
+}
